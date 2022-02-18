@@ -1,0 +1,41 @@
+.container{
+    text-align: center;
+    margin-top: 25px;
+}
+
+table{
+    margin: auto;
+}
+
+input{
+    font-size: 40px;
+    width: auto;
+    border: 2px solid black;
+    border-radius: 21px;
+    height:70px ;
+    width:95% ;
+}
+
+button{
+    font-size:40px;
+    background-color: rgb(0, 245, 245);
+    width: 121px;
+    height:90px;
+    margin: 5px;
+    border-radius:20px;
+    cursor: pointer;
+}
+
+.table{
+    background-color: rgb(8, 252, 252);
+    border: 2px solid black;
+    padding: 25px;
+    border-radius:25px;
+    display: inline-block;
+}
+
+h1{
+    text-decoration: underline;
+    font-family: Arial, Helvetica, sans-serif;
+}
+

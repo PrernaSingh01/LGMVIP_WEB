@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>task-3</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Student Enrollment Form</h1>
+    <div class="container">
+        <table>
+            <tr>
+                <td>
+                    <form onsubmit="onFormSubmit()" autocomplete="off">
+                        <div>
+                            <label for="Name">Name:</label>
+                            <input type="text" placeholder="Enter your name" name="Name" id="Name">
+                        </div>
+                        <div>
+                            <label for="Email">Email:</label>
+                            <input type="text" placeholder="Enter your email" name="Email" id="Email">
+                        </div>
+                        <div>
+                            <label for="Website">Website:</label>
+                            <input type="text" placeholder="Enter your website" name="Website" id="Website">
+                        </div>
+                        <div>
+                          <label for="gender">Gender:</label>
+                          <input type="text" placeholder="Male/Female" name="gender" id="gender">
+                        </div>
+                        <div>
+                            <label for="Education">Education</label>
+                            <input type="text" placeholder="Enter your education qualification" name="Education" id="Education">
+                        </div>
+                        <div>
+                            <label for="skills">Skills:</label>
+                            <input type="text" placeholder="Web Development/App Development" name="Skills" id="Skills">
+                        </div>
+                        <div  class="form-buttons">
+                            <input type="submit" class="submit" value="Submit">
+                            <input type="Clear" class="clear" value="Clear">
+                        </div>
+                    </form>
+                </td>
+                    <table class="table-list" id="studentList">
+                    <h2>Student Details</h2>
+                   <thead>
+                       <tr>
+                           <th>Name</th>
+                           <th>Email</th>
+                           <th>Website</th>
+                           <th>Gender</th>
+                           <th>Education</th>
+                           <th>Skills</th>
+                       </tr>
+                   </thead>
+                    <tbody>
+
+                    </tbody>
+                    </table>
+                </td>
+            </tr>
+        </table>
+    <script src="script.js"></script>
+</body>
+</html>
